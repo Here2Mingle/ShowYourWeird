@@ -4,7 +4,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'Here2Mingle',
+    title: 'Show Your Weird',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

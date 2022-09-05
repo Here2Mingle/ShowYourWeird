@@ -14,20 +14,20 @@
             <i class="far fa-smile fa-fw me-3"></i><span>Home</span></a>
         </li>
         <li class="sidenav-item">
-          <a class="sidenav-link" href="/members">
-            <i class="far fa-smile fa-fw me-3"></i><span>Browse Members</span></a>
+          <a class="sidenav-link" href="/blog/articles">
+            <i class="far fa-smile fa-fw me-3"></i><span>List of Articles</span></a>
         </li>
         <li class="sidenav-item">
-          <a class="sidenav-link" href="/channel/">
-            <i class="far fa-smile fa-fw me-3"></i><span>Channels</span></a>
+          <a class="sidenav-link" href="/groups/">
+            <i class="far fa-smile fa-fw me-3"></i><span>Groups</span></a>
         </li>
         <li class="sidenav-item">
-          <a class="sidenav-link" href="/game/">
-            <i class="far fa-smile fa-fw me-3"></i><span>Games</span></a>
+          <a class="sidenav-link" href="/weird">
+            <i class="far fa-smile fa-fw me-3"></i><span>Wall of Weird</span></a>
         </li>
         <li class="sidenav-item">
-          <a class="sidenav-link" href="/journal/">
-            <i class="far fa-smile fa-fw me-3"></i><span>Journals</span></a>
+          <a class="sidenav-link" href="/category">
+            <i class="far fa-smile fa-fw me-3"></i><span>Categories</span></a>
         </li>
       </ul>
     </nav>
@@ -40,12 +40,12 @@
         <!-- Toggle button -->
         <button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1" class="btn btn-primary"
           aria-controls="#sidenav-1" aria-haspopup="true">
-          <i class="fas fa-bars"> Menu</i>
+          <i class="fas fa-bars"> Browse</i>
         </button>
 
         <!-- Brand -->
-        <a class="navbar-brand" href="#">
-         <img src="../static/logo.png" alt="HERE2MINGLE"> HERE2MINGLE
+        <a class="navbar-brand" href="/">
+         <img src="../static/logo.png" alt="ShowYourWeird"> ShowYourWeird
         </a>
         <!-- Search form -->
         <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
@@ -58,10 +58,7 @@
         <!-- Right links -->
         <ul class="navbar-nav ms-auto d-flex flex-row">
           <li class="nav-item">
-            <a class="nav-link me-3 me-lg-0" role="button" aria-expanded="false" href="/social/newsfeed"><i class="fas fa-comment-alt"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-3 me-lg-0" role="button" aria-expanded="false" href="/social/groups"><i class="fas fa-users"></i></a>
+            <a class="nav-link me-3 me-lg-0" role="button" data-mdb-toggle="tooltip" title="Wall of Weird" aria-expanded="false" href="/weird"><i class="fas fa-asterisk"></i></a>
           </li>
           <!-- Notification dropdown -->
           <li class="nav-item dropdown">
@@ -89,10 +86,10 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="#">My profile</a>
+                <a class="dropdown-item" href="/user/">My profile</a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="/user/my-journals">My Journals</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">Logout</a>

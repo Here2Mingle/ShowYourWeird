@@ -6,7 +6,7 @@
     <div class="container py-5">
       <div class="row my-4">
         <div class="col-12">
-          <p class="display-4 fw-bold ls-tight" style="color: #e45300;">Here2Mingle Blog</p>
+          <p class="display-4 fw-bold ls-tight" style="color: #e45300;">ShowYourWeird Blog</p>
           <h4 class="mb-0" style="color: #998b89;">Articles from our team</h4>
         </div>
       </div>
@@ -37,7 +37,7 @@
 
 export default {
     head: {
-        title: 'User Profile'
+        title: 'ShowYourWeird Blog'
     }
 }
 </script>

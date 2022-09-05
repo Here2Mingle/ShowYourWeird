@@ -1,95 +1,160 @@
 <template>
   <div>
     <!-- Container for demo purpose -->
-    <div class="container my-5 py-5 shadow-5">
+    <div class="container my-5">
 
       <!--Section: Design Block-->
-      <section class="text-center">
-
-        <h3 class="mb-5">Who's Near You</h3>
+      <section class="mb-5">
         <div class="row">
-          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <img class="rounded-circle shadow-1-strong mb-4"
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20(25).jpg" alt="avatar" style="width: 150px;" />
-            <h5 class="mb-3">Anna Deynah</h5>
-            <p>Graphic designer</p>
-            <ul class="list-unstyled mb-0">
-              <a href="#!" class="px-1">
-                <i class="fab fa-github"></i>
+          <div class="col-md-6 col-lg-7 col-xl-8 mb-4">
+            <div class="bg-image rounded-6">
+              <img class="w-100" src="https://mdbootstrap.com/img/new/blog/37.jpg"
+                style="object-fit: cover; height: 421px" alt="Alternative text" />
+              <a href="#!">
+                <div class="mask" style="
+              background: linear-gradient(
+                to bottom,
+                hsla(0, 0%, 0%, 0),
+                hsla(0, 0%, 0%, 0.6)
+              );
+            ">
+                  <div class="bottom-0 d-flex align-items-end h-100 p-4 text-white">
+                    <div>
+                      <div class="d-flex flex-row small">
+                        <p class="text-uppercase">
+                          <a href="#!" class="text-reset">Sport</a>
+                        </p>
+                        <p class="mx-2">•</p>
+                        <p>06/27/2022</p>
+                      </div>
+                      <h5 class="fw-bold pb-1">
+                        World Championships Budapest 2022: Swimming results, day 8.
+                      </h5>
+                      <p class="small mb-0">
+                        By <a href="#!" class="text-reset">Janice Marray</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </ul>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-            <img class="rounded-circle shadow-1-strong mb-4"
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" alt="avatar" style="width: 150px;" />
-            <h5 class="mb-3">John Doe</h5>
-            <p>Web developer</p>
-            <ul class="list-unstyled mb-0">
-              <a href="#!" class="px-1">
-                <i class="fab fa-github"></i>
+          <div class="col-md-6 col-lg-5 col-xl-4 mb-4">
+            <div class="bg-image rounded-6">
+              <img class="w-100" src="https://mdbootstrap.com/img/new/blog/38.jpg"
+                style="object-fit: cover; height: 421px" alt="Alternative text" />
+              <a href="#!">
+                <div class="mask" style="
+              background: linear-gradient(
+                to bottom,
+                hsla(0, 0%, 0%, 0),
+                hsla(0, 0%, 0%, 0.6)
+              );
+            ">
+                  <div class="bottom-0 d-flex align-items-end h-100 p-4 text-white">
+                    <div>
+                      <div class="d-flex flex-row small">
+                        <p class="text-uppercase">
+                          <a href="#!" class="text-reset">Events</a>
+                        </p>
+                        <p class="mx-2">•</p>
+                        <p>06/25/2022</p>
+                      </div>
+                      <h5 class="fw-bold pb-1">Equality and friendly events near you.</h5>
+                      <p class="small mb-0">
+                        By <a href="#!" class="text-reset">Danny Fisher</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </ul>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-            <img class="rounded-circle shadow-1-strong mb-4"
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20(5).jpg" alt="avatar" style="width: 150px;" />
-            <h5 class="mb-3">Maria Smith</h5>
-            <p>Photographer</p>
-            <ul class="list-unstyled mb-0">
-              <a href="#!" class="px-1">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </ul>
-          </div>
-          <div class="col-md-6 col-lg-3 mb-0">
-            <img class="rounded-circle shadow-1-strong mb-4"
-              src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" alt="avatar" style="width: 150px;" />
-            <h5 class="mb-3">Tom Adams</h5>
-            <p>Backend developer</p>
-            <ul class="list-unstyled mb-0">
-              <a href="#!" class="px-1">
-                <i class="fab fa-dribbble"></i>
-              </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a href="#!" class="px-1">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </ul>
+            </div>
           </div>
         </div>
-
+        <div class="row">
+          <div class="col-md-6 col-lg-5 col-xl-4 mb-4">
+            <div class="bg-image rounded-6">
+              <img class="w-100" src="https://mdbootstrap.com/img/new/blog/41.jpg"
+                style="object-fit: cover; height: 421px" alt="Alternative text" />
+              <a href="#!">
+                <div class="mask" style="
+              background: linear-gradient(
+                to bottom,
+                hsla(0, 0%, 0%, 0),
+                hsla(0, 0%, 0%, 0.6)
+              );
+            ">
+                  <div class="bottom-0 d-flex align-items-end h-100 p-4 text-white">
+                    <div>
+                      <div class="d-flex flex-row small">
+                        <p class="text-uppercase">
+                          <a href="#!" class="text-reset">Sport</a>
+                        </p>
+                        <p class="mx-2">•</p>
+                        <p>06/25/2022</p>
+                      </div>
+                      <h5 class="fw-bold pb-1">Grand Prix Cycliste de Montréal.</h5>
+                      <p class="small mb-0">
+                        By <a href="#!" class="text-reset">Amanda Queens</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7 col-xl-8 mb-4">
+            <div class="bg-image rounded-6">
+              <img class="w-100" src="https://mdbootstrap.com/img/new/blog/40.jpg"
+                style="object-fit: cover; height: 421px" alt="Alternative text" />
+              <a href="#!">
+                <div class="mask" style="
+              background: linear-gradient(
+                to bottom,
+                hsla(0, 0%, 0%, 0),
+                hsla(0, 0%, 0%, 0.6)
+              );
+            ">
+                  <div class="bottom-0 d-flex align-items-end h-100 p-4 text-white">
+                    <div>
+                      <div class="d-flex flex-row small">
+                        <p class="text-uppercase">
+                          <a href="#!" class="text-reset">Travel</a>
+                        </p>
+                        <p class="mx-2">•</p>
+                        <p>06/24/2022</p>
+                      </div>
+                      <h5 class="fw-bold pb-1">
+                        Info: current difficulties for airline passengers.
+                      </h5>
+                      <p class="small mb-0">
+                        By <a href="#!" class="text-reset">Alice Mayer</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
       <!--Section: Design Block-->
 
     </div>
-    <!-- Container for demo purpose -->
+    <relatedposts />
+    <Posts />
   </div>
 </template>
 
 <script>
-  // import chart from '~/components/charts/chart.vue'
+  import relatedposts from '~/components/RelatedPosts'
+  import Posts from '~/components/Posts'
+
   export default {
-    // components: {chart},
+    components: {
+      relatedposts,
+      Posts
+    },
     name: 'IndexPage'
   }
 

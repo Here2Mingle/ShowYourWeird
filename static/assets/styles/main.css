@@ -5,7 +5,7 @@ body {
 }
 
 .btn-primary {
-  background-color: rgba(35, 67, 212, 0.911) !important;
+  background-color: #165511 !important;
 }
 
 main {
@@ -50,7 +50,7 @@ main {
 }
 
 #navbarCenteredExample .input-group-text {
-  background-color: #FF4066;
+  background-color: #165511;
   color: white;
   left: -30px;
   position: relative;
@@ -81,7 +81,7 @@ nav .fa-bell, nav .fa-user-circle {
 /* Footer CSS */
 
 footer {
-  background-color: rgba(35, 67, 212, 0.911);
+  background-color: #165511;
   color: white !important;
 }
 
